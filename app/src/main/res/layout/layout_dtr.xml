@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,2">
+
+    <TableRow android:id="@+id/LineTable"> // FOR LINING
+
+        <TextView
+            android:id="@+id/JustLine"
+            android:layout_column="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_gravity="right"
+            android:text="-----------------------------"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/AnotherLine"
+            android:layout_width="240dp"
+            android:layout_column="1"
+            android:gravity="left"
+            android:text="----------------------------------"
+            android:padding="5dp"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/DtrIDTable"> // Table1
+
+        <TextView
+            android:id="@+id/Dis_DtrID"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Date Time Stamp ID :"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/In_DtrID"
+            android:layout_width="73dp"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/EmplDTable"> //Table 2
+
+        <TextView
+            android:id="@+id/Dis_EmplD"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Employee ID :"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/In_EmplD"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+    <TableRow android:id="@+id/WorkDateTable"> //Table 3
+
+        <TextView
+            android:id="@+id/Dis_WorkDate"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Work Date :"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/In_WorkDate"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/IN_DtimeTable"> //Table 4
+
+        <TextView
+            android:id="@+id/Dis_IN_Dtime"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="IN_Dtime :"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/In_IN_Dtime"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/OUT_DtimeTable"> //Table 5
+
+        <TextView
+            android:id="@+id/Dis_OUT_Dtime"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="OUT_Dtime :"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/In_OUT_Dtime"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/TotalHoursTable"> //Table 6
+
+        <TextView
+            android:id="@+id/Dis_TotalHours"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Total Hours :"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/In_TotalHours"
+            android:layout_width="240dp"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+
+
+
+
+</TableLayout>

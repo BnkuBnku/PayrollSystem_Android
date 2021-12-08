@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/activity_dtr.xml" value="0.30637636080870917" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/activity_eemployee_list.xml" value="0.33" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/activity_employee.xml" value="0.33" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/activity_login.xml" value="0.2864583333333333" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/activity_main2.xml" value="0.1838768115942029" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/activity_pay_report.xml" value="0.33" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/activity_payroll.xml" value="0.33" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/addpayroll_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/deleteemployee_dialog.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/dtr.xml" value="0.33" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/dtr_layout.xml" value="0.5129789864029666" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/eemployee_list_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/employee_options_layout.xml" value="0.33" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/employeelist.xml" value="0.33" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/layout_dtr.xml" value="0.18" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/layout_eemployee_list.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/layout_sumreport.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/payroll.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/payrollreportfull.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/payrollreportsummary.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/updateemployee_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/welcomeadmin.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/menu/emp_menu.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

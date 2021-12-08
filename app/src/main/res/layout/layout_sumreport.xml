@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reportTable"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,2">
+
+    <TableRow android:id="@+id/LineTable">// FOR LINING
+
+        <TextView
+            android:id="@+id/JustLine"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="--------------------------"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/AnotherLine"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text="---------------------------------"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Report_SummaryID">// Table1
+
+        <TextView
+            android:id="@+id/Dis_SummaryID"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Summary ID :"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_SummaryID"
+            android:layout_width="73dp"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Report_PayReportID">//Table 2
+
+        <TextView
+            android:id="@+id/Dis_PayReportID"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="PayReportID :
+"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_PayID"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Report_RollNum">//Table 3
+
+        <TextView
+            android:id="@+id/Dis_RollNum"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Roll Number :"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_RollNum"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Report_EmpID">//Table 4
+
+        <TextView
+            android:id="@+id/Dis_EmpID"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Employee ID :"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_EmpID"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Report_PayrollType">//Table 5
+
+        <TextView
+            android:id="@+id/Dis_PayrollType"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Payroll Type :"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_PayrollType"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Report_PayrollDescrip">//Table 6
+
+        <TextView
+            android:id="@+id/Dis_PayrollDescrip"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Payroll Description :"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_PayrollDescrip"
+            android:layout_width="220dp"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+
+</TableLayout>

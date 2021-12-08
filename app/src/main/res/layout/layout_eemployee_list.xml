@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tablelayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,2">
+
+    <TableRow android:id="@+id/LineTable">// FOR LINING
+
+        <TextView
+            android:id="@+id/JustLine"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:layout_gravity="right"
+            android:text="--------------------------"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/AnotherLine"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text="----------------------------------"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Employee_idTable">// Table1
+
+        <TextView
+            android:id="@+id/Dis_Employee_id"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Employee ID :"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_Employee_id"
+            android:layout_width="73dp"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Employee_FirstNTable">//Table 2
+
+        <TextView
+            android:id="@+id/Dis_Employee_FirstN"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Employee First Name :
+"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_Employee_FirstN"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Employee_LastNTable">//Table 3
+
+        <TextView
+            android:id="@+id/Dis_Employee_LastN"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Employee Last Name :"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_Employee_LastN"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Employee_ageTable">//Table 4
+
+        <TextView
+            android:id="@+id/Dis_Employee_age"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Employee Age :"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_Employee_age"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Position_titleTable">//Table 5
+
+        <TextView
+            android:id="@+id/Dis_Position_title"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Position Title :"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_Position_title"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Bank_Acc_NoTable">//Table 6
+
+        <TextView
+            android:id="@+id/Dis_Bank_Acc_No"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Bank Account No :"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_Bank_Acc_No"
+            android:layout_width="220dp"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Deduc_typeTable">//Table 6
+
+        <TextView
+            android:id="@+id/Dis_Deduc_type"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Deduction Type :"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_Deduc_type"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+    <TableRow android:id="@+id/Deduc_descripTable">//Table 6
+
+        <TextView
+            android:id="@+id/Dis_Deduc_descrip"
+            android:layout_column="1"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="Deduction Description :"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/In_Deduc_descrip"
+            android:layout_column="1"
+            android:gravity="left"
+            android:padding="5dp"
+            android:textSize="16dp" />
+
+
+    </TableRow>
+
+
+
+
+
+</TableLayout>
