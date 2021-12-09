@@ -224,7 +224,6 @@ public class PayListAdapter extends RecyclerView.Adapter<PayListAdapter.ListView
                                     Rollnum.setText(A1);
                                 }
                                 catch (Exception e){
-                                    Toast.makeText(context,"Exception Error \n" + e.getMessage(), LENGTH_SHORT).show();
                                 }
                             }
                         }, new Response.ErrorListener() {
@@ -369,7 +368,13 @@ public class PayListAdapter extends RecyclerView.Adapter<PayListAdapter.ListView
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
-                        Toast.makeText(context, "Successfully Added!", LENGTH_SHORT).show();
+                        try{
+                            Toast.makeText(context, "Successfully Added!", LENGTH_SHORT).show();
+
+                        }catch (Exception e){
+                            Toast.makeText(context, "Exception Error! \n\n" + e.getMessage(), LENGTH_SHORT).show();
+
+                        }
                     }
                 },
                 new Response.ErrorListener() {

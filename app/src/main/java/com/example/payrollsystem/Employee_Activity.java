@@ -158,6 +158,7 @@ public class Employee_Activity extends AppCompatActivity {
                 String dtyp = InDType.getText().toString();
                 String desc = InDesc.getText().toString();
                 InsertEmp(fn, ln, age, pos, bnk, dtyp, desc);
+                DisplayEmployee();
                 dialog.dismiss();
             }
         });
@@ -199,6 +200,7 @@ public class Employee_Activity extends AppCompatActivity {
                }
                else{
                    DeleteEmp(id);
+                   DisplayEmployee();
                    dialog.dismiss();
                }
             }
@@ -261,7 +263,7 @@ public class Employee_Activity extends AppCompatActivity {
 
     //Delete Emp
     private void DeleteEmp(String ID){
-        String url = "http://192.168.254.100/Payroll/DeleteEmployees.php";
+        String url = "https://cyvinhenz.xyz/DeleteEmployees.php";
 
         RequestQueue q = Volley.newRequestQueue(Employee_Activity.this);
 
@@ -297,7 +299,7 @@ public class Employee_Activity extends AppCompatActivity {
 
     private void DisplayEmployee(){
         // post our data.
-        String url = "http://192.168.254.100/Payroll/DisplayEmployees.php";
+        String url = "https://cyvinhenz.xyz/DisplayEmployees.php";
 
         // creating a new variable for our request queue.
         RequestQueue q = Volley.newRequestQueue(Employee_Activity.this);
@@ -344,7 +346,6 @@ public class Employee_Activity extends AppCompatActivity {
 
 
                         } catch (JSONException e) { //Display Error if any
-                            Toast.makeText(Employee_Activity.this,"ERROR \n\n" + e.getMessage(), LENGTH_SHORT).show();
                         }
                     }
                 },

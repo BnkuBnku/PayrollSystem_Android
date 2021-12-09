@@ -250,7 +250,6 @@ public class DtrActivity extends AppCompatActivity {
 
 
                         } catch (JSONException e) { //Display Error if any
-                            Toast.makeText(DtrActivity.this,"ERROR \n\n" + e.getMessage(), LENGTH_SHORT).show();
                         }
                     }
                 },

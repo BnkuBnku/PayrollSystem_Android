@@ -28,7 +28,7 @@ public class PayReport_Activity extends AppCompatActivity {
     private Button ReBackBtn;
     private Button ReRefreshBtn;
 
-    private RecyclerView recycler_report;
+    private RecyclerView recycler_r;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +36,7 @@ public class PayReport_Activity extends AppCompatActivity {
         setContentView(R.layout.activity_pay_report);
         ReBackBtn = findViewById(R.id.ReportBackBtn);
         ReRefreshBtn = findViewById(R.id.reportRefreshBtn);
-        recycler_report = findViewById(R.id.recycler_report);
+        recycler_r = findViewById(R.id.recycler_report);
 
         //Display Report List
         DisplayReport();
@@ -57,8 +57,8 @@ public class PayReport_Activity extends AppCompatActivity {
         });
 
         // Layout for RecyclerView
-        recycler_report.setHasFixedSize(true);
-        recycler_report.setLayoutManager(new LinearLayoutManager(this)); //Left to Right.
+        recycler_r.setHasFixedSize(true);
+        recycler_r.setLayoutManager(new LinearLayoutManager(this)); //Left to Right.
     }
 
     private void DisplayReport(){
@@ -104,7 +104,6 @@ public class PayReport_Activity extends AppCompatActivity {
 
 
                         } catch (JSONException e) { //Display Error if any
-                            Toast.makeText(PayReport_Activity.this,"ERROR \n\n" + e.getMessage(), LENGTH_SHORT).show();
                         }
                     }
                 }, new Response.ErrorListener() {
@@ -135,6 +134,6 @@ public class PayReport_Activity extends AppCompatActivity {
         }
 
         SumReportAdapter ada = new SumReportAdapter(this,SUMAr,PAYAr,ROLLAr,EMPAr,TYPEAr,DESCAr);
-        recycler_report.setAdapter(ada);
+        recycler_r.setAdapter(ada);
     }
 }

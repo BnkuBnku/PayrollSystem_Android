@@ -103,7 +103,7 @@
                     android:layout_width="178dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="number" />
             </TableRow>
 
             <TableRow
@@ -147,7 +147,7 @@
                     android:layout_width="179dp"
                     android:layout_height="match_parent"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="number" />
             </TableRow>
 
             <TableRow

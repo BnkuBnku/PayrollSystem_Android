@@ -57,7 +57,7 @@
             android:layout_height="42dp"
             android:ems="10"
             android:hint="ID"
-            android:inputType="textPersonName"
+            android:inputType="number"
             app:layout_constraintEnd_toStartOf="@+id/btn_enter"
             app:layout_constraintHorizontal_bias="0.41"
             app:layout_constraintStart_toStartOf="parent"

@@ -13,6 +13,9 @@
         <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/activity_payroll.xml" value="0.33" />
         <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/addpayroll_dialog.xml" value="0.33" />
         <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/deleteemployee_dialog.xml" value="0.26458333333333334" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/dialog_addpayroll.xml" value="0.3776041666666667" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/dialog_deleteemployee.xml" value="0.3314814814814815" />
+        <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/dialog_updateemployee.xml" value="0.3314814814814815" />
         <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/dtr.xml" value="0.33" />
         <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/dtr_layout.xml" value="0.5129789864029666" />
         <entry key="..\:/Users/neoma/AndroidStudioProjects/PayrollSystem2/app/src/main/res/layout/eemployee_list_layout.xml" value="0.36666666666666664" />

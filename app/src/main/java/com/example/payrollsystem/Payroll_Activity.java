@@ -104,7 +104,7 @@ public class Payroll_Activity extends AppCompatActivity {
 
 
                         } catch (JSONException e) { //Display Error if any
-                            Toast.makeText(Payroll_Activity.this,"ERROR \n\n" + e.getMessage(), LENGTH_SHORT).show();
+
                         }
                     }
                 },
